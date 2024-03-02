@@ -104,7 +104,7 @@ class _BasePageState extends State<BasePage> {
                   Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(
-                      builder: (_) => Homepage(),
+                      builder: (_) => MyHomePage(),
                     ),
                   );
                 }
